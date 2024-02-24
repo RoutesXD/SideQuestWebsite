@@ -30,7 +30,7 @@
   width: 90%;
   margin:0 auto;
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 20px;
   justify-content:center;
   align-items: center; 
@@ -38,8 +38,8 @@
 
 /* Styling Particular Image */
 .gallery-img2 {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -87,13 +87,13 @@ at middle of screen */
 /* Making images more responsive for smaller size device */
 @media (max-width:670px) {
   .gallery2{
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      grid-gap: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-gap: 30px;
       text-align: center;
   }
   .gallery-img2{
-      width:150px;
-      height: 150px;
+      width:300px;
+      height: 330px;
       text-align: center;
   }
 
